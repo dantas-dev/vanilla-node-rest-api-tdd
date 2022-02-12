@@ -1,0 +1,35 @@
+{
+  "name": "node-vanilla-rest-api-tdd",
+  "version": "1.0.0",
+  "author": "Eduardo Dantas <contato@dantasdev.com> (https://dantasdev.com)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "seed": "node seed/index.js",
+    "test": "npx mocha -w --parallel ./src/**/**/*.spec.js ./test/*.test.js",
+    "test:unit": "npx mocha -w --parallel ./src/**/**/*.spec.js",
+    "test:integration": "npx mocha -w --parallel ./test/*.test.js",
+    "test:coverage": "npx nyc npx mocha ./src/**/**/*.spec.js ./test/*.test.js"
+  },
+  "keywords": [
+    "vanilla",
+    "node",
+    "rest",
+    "tdd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/EduD/node-vanilla-rest-api-tdd.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "faker": "^5.5.3",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "supertest": "^6.2.2"
+  }
+}
