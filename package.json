@@ -1,5 +1,5 @@
 {
-  "name": "node-vanilla-rest-api-tdd",
+  "name": "vanilla-node-rest-api-tdd",
   "version": "1.0.0",
   "author": "Eduardo Dantas <contato@dantasdev.com> (https://dantasdev.com)",
   "main": "index.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/EduD/node-vanilla-rest-api-tdd.git"
+    "url": "\u0016https://github.com/EduD/vanilla-node-rest-api-tdd.git"
   },
   "license": "ISC",
   "dependencies": {
