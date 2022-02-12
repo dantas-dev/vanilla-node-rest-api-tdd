@@ -1,7 +1,7 @@
 
-![Node vanilla by Eduardo Dantas](https://nodejs.org/static/images/logo.svg)
+![vanilla Node by Eduardo Dantas](https://nodejs.org/static/images/logo.svg)
 
-This is a [Node.js](https://nodejs.org/) vanilla rest API created to show that it is possible to create a rest API using only vanilla Node.js. But in most cases, I would recommend you to use something like Express in a production project for productivity purposes.
+This is a vanilla [Node.js](https://nodejs.org/) rest API created to show that it is possible to create a rest API using only vanilla Node.js. But in most cases, I would recommend you to use something like Express in a production project for productivity purposes.
 
 
 ## What is inside?
@@ -20,8 +20,8 @@ This project uses lot of stuff such as:
 1) clone repository and go to project folder
 
 ```bash
-git clone https://github.com/EduD/node-vanilla-rest-api-tdd.git
-cd node-vanilla-rest-api-tdd
+git clone https://github.com/EduD/vanilla-node-rest-api-tdd.git
+cd vanilla-node-rest-api-tdd
 ```
 
 2) Create .env and populate database:
